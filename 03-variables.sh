@@ -3,10 +3,10 @@
 PERSON1=Trump
 PERSON2=Musk
 
-echo $PERSON1: "hi $PERSON2 how are you"
-echo $PERSON2: "iam good how are you $PERSON1"
-echo $PERSON1: "what are you doing $PERSON2"
-echo $PERSON2: "iam doing a project on aws"
-echo $PERSON1: "even im doing a project too"
-echo $PERSON2: "oh! great $PERSON1"
-echo $PERSON1: "thanku $PERSON2"
+echo  "$PERSON1: hai $PERSON2 how are you?"
+echo "$PERSON2: iam good how are you $PERSON1"
+echo "$PERSON1: what are you doing $PERSON2"
+echo "$PERSON2: iam doing a project on aws"
+echo "$PERSON1: even im doing a project too"
+echo "$PERSON2: oh! great $PERSON1"
+echo "$PERSON1: thanku $PERSON2"
