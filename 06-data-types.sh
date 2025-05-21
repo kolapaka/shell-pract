@@ -1,7 +1,7 @@
 #!bin/bash
 
-NUMBER=100
-NUMBER=300
+NUMBER1=100
+NUMBER2=300
 
 TIMESTAMP=$(date)
 echo "script executed at : $TIMESTAMP"
