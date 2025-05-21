@@ -14,5 +14,5 @@ then
 echo "Installing mysql is success"
 else
 echo "fail to install"
-# exti 1
+exti 1
 fi
