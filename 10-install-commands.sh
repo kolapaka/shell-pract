@@ -8,7 +8,8 @@ exit 4 # give other than 0 upto 127
 else
 echo "you are running with root acess"
 fi
-dnf install mysql -y
+dnf list installed mysql
+
 if [ $? -eq 0 ]
 then 
 echo "Installing mysql is success"
@@ -16,3 +17,10 @@ else
 echo "fail to install"
 exti 1
 fi
+#  dnf install  mysql -y
+if [ $? eq 0 ]
+then
+echo "instlling mysql sucess"
+else
+echo installing mysql failure"
+exit 1
