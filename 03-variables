@@ -1,0 +1,12 @@
+#!bin/bash
+
+PERSON1=Trump
+PERSON2=Musk
+
+echo $ERSON1: "hi $PERSON2 how are you"
+echo $PERSON2: "iam good how are you $ERSON1"
+echo $RSON1: "what are you doing $PERSON2"
+echo $PERSON2: "iam doing a project on aws"
+echo $ERSON1: "even im doing a project too"
+echo $PERSON2: "oh! great $ERSON1"
+echo $ERSON1: "thanku $PERSON2"
