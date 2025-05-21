@@ -8,7 +8,7 @@ exit 4 # give other than 0 upto 127
 else
 echo "you are running with root acess"
 fi
-dnf install mysquufuf -y
+dnf install mysql -y
 if [ $? -eq 0 ]
 then 
 echo "Installing mysql is success"
