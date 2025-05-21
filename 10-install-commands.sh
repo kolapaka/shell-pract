@@ -17,6 +17,8 @@ else
 echo "fail to install"
 exti 1
 fi
+else 
+echo "mysql alredy installed nohing to do"
 #  dnf install  mysql -y
 if [ $? eq 0 ]
 then
